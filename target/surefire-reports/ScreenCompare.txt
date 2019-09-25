@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: ScreenCompare
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.874 s <<< FAILURE! - in ScreenCompare
+screenCompare(ScreenCompare)  Time elapsed: 0.122 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException
+	at ScreenCompare.screenCompare(ScreenCompare.java:30)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.SessionNotFoundException
+	at ScreenCompare.screenCompare(ScreenCompare.java:30)
+
