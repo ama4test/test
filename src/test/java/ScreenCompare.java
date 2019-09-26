@@ -26,7 +26,7 @@ public class ScreenCompare {
     @Test
     public void screenCompare() {
         Allure.label("testType", "screenshotDiff");
-//        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         driver.get("https://www.seleniumhq.org/");
